@@ -1,0 +1,21 @@
+.MenuOpen-Close{
+    height: 100%;
+    display: block;
+    transition: 100s all;
+}
+
+.box {
+    width: 90%;
+    margin-left: 10px;
+    transition: all 0.1s linear;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .visuallyhidden {
+    opacity: 0;
+  }
